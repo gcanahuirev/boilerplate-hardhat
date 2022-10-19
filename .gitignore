@@ -1,0 +1,32 @@
+# Node
+node_modules
+dist
+build
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+coverage
+coverage.json
+
+#Hardhat files
+cache/
+artifacts/
+
+#Typechain
+typechain/
+typechain-types/
+
+# dotenv environment variables file
+.env
+.env.test
+.env.development
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log_
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
